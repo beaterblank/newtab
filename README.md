@@ -1,5 +1,4 @@
 # newtab
 a chrome extension for new tab
 
-
-https://www.deviantart.com/kirokaze
+art from : https://www.deviantart.com/kirokaze
