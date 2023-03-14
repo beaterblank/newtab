@@ -5,16 +5,18 @@ padding: 0;
 overflow: hidden;
 color: #fff;
 font-family: "Press Start 2P", cursive;
+user-select: none;
 cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFklEQVRYR9WXURLDIAhE6/0PbSdOtUpcd1Gnpv1KGpTHBpCE1/cXq+vrMph7dGvXZTtpfW10DCA5jrH1H0Jhs5E0hnZdCR+vb5S8Nn8mQCeS9BdSalYJqMBjAGzq59xAESN7VFVUgV8AZB/dZBR7QTFDCqGquvUBVVoEtgIwpQRzmANSFHgWQKExHdIrPeuMvQNDarXe6nC/AutgV3JW+6bgqQLeV8FekRtgV+ToDKEKnACYKsfZjjkam7a0ZpYTytwmgainpC3HvwBocgKOxqRjehoR9DFKNFYtOwCGYCszobeCbl26N6yyQ6g8X/Wex/rBPsNEV6qAMaJPMynIHQCoSqS9JSMmwef51LflTgCRszU7DvAGiV6mHWfsaVUAAAAASUVORK5CYII=),auto
+}
+.search:hover +.input-container:hover
+.input-container{
+	display: block;
 }
 .input-container {
     position: absolute;
-    display: inline-block;
     padding: 30px;
     border-radius: 3px;
-    transform: scale(0.85);
-    
-
+    transform: scale(0.75);
 }
 .input-container input::placeholder{
     color:rgba(255, 255, 255, 0.733);
@@ -79,13 +81,13 @@ a:hover{
 
 
 :root {
-	--pixel-bg: rgba(41, 42, 43, 0.411);
+	--pixel-bg: rgba(0, 0, 0, 0.675);
 	/* ↑ Inner background color */
 	
-	--pixel-border: rgba(41, 42, 43, 0.411);
+	--pixel-border: rgb(0, 0, 0);
 	/* ↑ Inner border color */
 	
-	--pixel-border-2: rgba(255, 255, 255, 0.644);
+	--pixel-border-2: rgb(255, 255, 255);
 	/* ↑ Middle border color */
 	
 	--pixel-border-3: var(--pixel-border);
