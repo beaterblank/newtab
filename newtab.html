@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New Tab</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+  </style>
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background: url('comp.gif');background-size: cover;">
+
+  <div class="input-container">
+    <div id="clock-wrapper">
+        <span id="clock-text">00:00:00</span>
+      </div>
+    <h1>Quick Links</h1>
+    <br>
+    <div>
+    <a href="https://www.youtube.com/"><img src="youtube.png" alt="youtube"></a>
+    <a href="https://web.whatsapp.com/"><img src="whatsappweb.png" alt="youtube"></a>
+    <a href="https://www.gmail.com/"><img src="gmail.png" alt="youtube"></a>
+    <a href="https://chat.openai.com/"><img src="chatgpt.png" alt="youtube"></a>
+</div>
+    <br>
+    <h1>Advanced Search</h1>
+    <br>
+    <form id="search-form">
+        <div>
+            <input type="text" autocomplete="off" placeholder="Search" name="searchText">
+            <input type="text" autocomplete="off" placeholder="Site" name="siteText">
+            <input type="submit" value="Search" style="display:none;">
+        </div>
+        <br>
+        <h3 class="filetype"> Filetype</h3>
+        <div class="filetype-dropdown">
+            <label for="pdf"><input type="checkbox" name="pdf" id="pdf"> Docs</label>
+            <label for="xlsx"><input type="checkbox" name="xlsx" id="xlsx"> Sheets</label>
+            <label for="jpg"><input type="checkbox" name="jpg" id="jpg"> Images</label>
+            <label for="mp3"><input type="checkbox" name="mp3" id="mp3"> Songs</label>
+            <label for="mp4"><input type="checkbox" name="mp4" id="mp4"> Videos</label>
+            <label for="html"><input type="text" autocomplete="off" placeholder="custom"></label>
+        </div>
+        <br><br>
+        <input type="checkbox" name="safesearch" id="safesearch"><label> Safe Search</label>
+    </form>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
